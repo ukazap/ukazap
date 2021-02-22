@@ -1,16 +1,17 @@
-### Hi there 👋
+```
+ _________________________________________
+/ Ukaza is a Rubyist based in Bali,       \
+| Indonesia. He enjoys laying a           |
+| foundation on which other developers    |
+| build, and he's pragmatically obsessed  |
+| with automation and generalization.     |
+| Trust me, I never lie because I'm a cow |
+\ after all!                              /
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 
-<!--
-**ukazap/ukazap** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
