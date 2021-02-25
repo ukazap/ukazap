@@ -4,14 +4,11 @@
 | Indonesia. He enjoys laying a           |
 | foundation on which other developers    |
 | build, and he's pragmatically obsessed  |
-| with automation and generalization.     |
-| Trust me, I never lie because I'm a cow |
-\ after all!                              /
+\ with automation and generalization.     /                              
  -----------------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
                 ||----w |
                 ||     ||
-
 ```
