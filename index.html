@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ukaza Perdana</title>
+  <style>
+    * {
+      background-color: beige; 
+      font-family: monospace;
+      color: black;
+    }
+
+    #main {
+      padding: 10px;
+      background: whitesmoke;
+      margin: 2px;
+      width: auto;
+      display: inline-block;
+    }
+
+    .borderoo {
+      border: 2px solid gray;
+      border-radius: 6px;
+    }
+
+    .shadowee {
+      box-shadow: 5px 5px teal;
+    }
+
+    img {
+      width: 50px;
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 10px;
+    }
+
+    pre, pre * {
+      display: inline-block;
+      margin: 0px;
+      background: tan;
+    }
+
+    pre {
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="main" class="borderoo shadowee">
+    <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
+<pre class="borderoo">{
+  "<strong>subject</strong>": "Hi 👋",
+  "<strong>message</strong>": "
+     ___________________________________________  
+    / I'm Ukaza, a Rubyist based in Indonesia.  \  
+    | I enjoys laying a foundation on which     |  
+    | other developers build. I'm all for       |  
+    \ laziness and convenience and automations! /  
+      ------------------------------------------  
+            \   ^__^
+              \  (oo)\_______
+                (__)\       )\/\
+                    ||----w |
+                    ||     ||",
+  "<strong>linkedin</strong>": "<a href="https://www.linkedin.com/in/ukazap">ukazap</a>",
+  "<strong>github</strong>": "<a href="https://github.com/ukazap">ukazap</a>",
+  "<strong>email</strong>": "<a href="mailto:ukaza@perdana.dev">ukaza@perdana.dev</a>",
+  "<strong>pgp_public_key</strong>": "<a href="https://raw.githubusercontent.com/ukazap/ukazap/main/Ukaza%20Perdana_0x6FA2FB3D_public.asc">0x6FA2FB3D</a>"
+}</pre>
+    <script>
+
+      title = "Ukaza Perdana"
+      emojis = ["😱","😭","😢","😥","😰","😨","😧","😦","🥺","😓","😩","😫","😎","😀","😃","😄","😁","😆","😂","🙂"]
+      emojindex = -1
+
+      function blink() {
+        emoji = emojis[emojindex++]
+        if (!emoji) {
+          emojindex = 0
+          emoji = emojis[emojindex]
+        }
+        newTitle = title + " " + emoji
+        document.title = newTitle
+      }
+
+      bottleCount = 4
+
+      function nBottles(n) {
+        return n.toLocaleString() + " " + (n > 1 ? 'bottles' : 'bottle')
+      }
+
+      function passBottleAround() {
+        bottles = bottleCount == 1 ? 'bottle' : 'bottles';
+        console.log("\n" + nBottles(bottleCount) + " of milk on the wall, " + nBottles(bottleCount) + " of milk.");
+        bottleCount--
+        takeOneDown = "Take one down, pass it around, "
+        if (bottleCount > 0) {
+          bottles = bottleCount == 1 ? 'bottle' : 'bottles';
+          console.log(takeOneDown + nBottles(bottleCount) + " of milk on the wall. ")
+        } else {
+          console.log(takeOneDown + "no more bottles of milk on the wall!");
+        }
+      }
+
+      window.onload = function(_event) {
+        setInterval(blink, 1)
+        bottlePassing = setInterval(function () {
+          if (bottleCount == 0) {
+            clearInterval(bottlePassing)
+          } else {
+            passBottleAround()
+          }
+        }, 1000)
+      }
+    </script>
+  </div>
+</body>
+</html>
