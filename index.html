@@ -8,16 +8,19 @@
   <style>
     * {
       background-color: beige; 
-      font-family: monospace;
+      font-family: sans-serif;
       color: black;
     }
 
-    #main {
+    .superbox {
+      display: inline-block;
+    }
+
+    .boxybox {
       padding: 10px;
       background: whitesmoke;
-      margin: 2px;
+      margin: 10px 2px;
       width: auto;
-      display: inline-block;
     }
 
     .borderoo {
@@ -29,92 +32,114 @@
       box-shadow: 5px 5px teal;
     }
 
+    .message {
+      display: inline-block;
+      margin: 0px;
+      background: transparent;
+      font-size: small;
+      line-height: 20px;
+    }
+
     img {
       width: 50px;
       display: inline-block;
       vertical-align: top;
       margin-bottom: 10px;
+      margin-right: 5px;
     }
 
     pre, pre * {
-      display: inline-block;
-      margin: 0px;
-      background: tan;
+      background: transparent;
+      font-family: monospace;
+      
     }
 
     pre {
-      padding: 10px;
+      
+      line-height: normal;
     }
   </style>
 </head>
 <body>
-  <div id="main" class="borderoo shadowee">
-    <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
-<pre class="borderoo">{
-  "<strong>subject</strong>": "Hi 👋",
-  "<strong>message</strong>": "
-     ___________________________________________  
-    / I'm Ukaza, a Rubyist based in Indonesia.  \  
-    | I enjoys laying a foundation on which     |  
-    | other developers build. I'm all for       |  
-    \ laziness and convenience and automations! /  
-      ------------------------------------------  
-            \   ^__^
-              \  (oo)\_______
-                (__)\       )\/\
-                    ||----w |
-                    ||     ||",
+  <div class="superbox">
+    <div class="boxybox borderoo shadowee">
+      <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
+      <div class="message">
+        Hi 👋<br>
+        I'm Ukaza Perdana, a programmer based in Indonesia.<br>
+        I enjoy laying foundations on which other developers build.<br>
+        I'm all for strong and convenience and automations!!!
+      </div>
+    </div>
+
+    <div class="boxybox borderoo shadowee">
+      <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
+      <div class="message"></div>
+    </div>
+
+
+    <div class="boxybox borderoo shadowee">
+      <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
+      <div class="message"></div>
+    </div>
+
+    <div class="boxybox borderoo shadowee">
+      <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
+      <pre class="message">{
   "<strong>linkedin</strong>": "<a href="https://www.linkedin.com/in/ukazap">ukazap</a>",
   "<strong>github</strong>": "<a href="https://github.com/ukazap">ukazap</a>",
   "<strong>email</strong>": "<a href="mailto:ukaza@perdana.dev">ukaza@perdana.dev</a>",
   "<strong>pgp_public_key</strong>": "<a href="https://raw.githubusercontent.com/ukazap/ukazap/main/Ukaza%20Perdana_0x6FA2FB3D_public.asc">0x6FA2FB3D</a>"
 }</pre>
-    <script>
-
-      title = "Ukaza Perdana"
-      emojis = ["😱","😭","😢","😥","😰","😨","😧","😦","🥺","😓","😩","😫","😎","😀","😃","😄","😁","😆","😂","🙂"]
-      emojindex = -1
-
-      function blink() {
-        emoji = emojis[emojindex++]
-        if (!emoji) {
-          emojindex = 0
-          emoji = emojis[emojindex]
-        }
-        newTitle = title + " " + emoji
-        document.title = newTitle
-      }
-
-      bottleCount = 4
-
-      function nBottles(n) {
-        return n.toLocaleString() + " " + (n > 1 ? 'bottles' : 'bottle')
-      }
-
-      function passBottleAround() {
-        bottles = bottleCount == 1 ? 'bottle' : 'bottles';
-        console.log("\n" + nBottles(bottleCount) + " of milk on the wall, " + nBottles(bottleCount) + " of milk.");
-        bottleCount--
-        takeOneDown = "Take one down, pass it around, "
-        if (bottleCount > 0) {
-          bottles = bottleCount == 1 ? 'bottle' : 'bottles';
-          console.log(takeOneDown + nBottles(bottleCount) + " of milk on the wall. ")
-        } else {
-          console.log(takeOneDown + "no more bottles of milk on the wall!");
-        }
-      }
-
-      window.onload = function(_event) {
-        setInterval(blink, 1)
-        bottlePassing = setInterval(function () {
-          if (bottleCount == 0) {
-            clearInterval(bottlePassing)
-          } else {
-            passBottleAround()
-          }
-        }, 1000)
-      }
-    </script>
+    </div>
   </div>
+
+
+  <script>
+
+    title = "Ukaza Perdana"
+    emojis = ["😱", "😭", "😢", "😥", "😰", "😨", "😧", "😦", "🥺", "😓", "😩", "😫", "😎", "😀", "😃", "😄", "😁", "😆", "😂", "🙂"]
+    emojindex = -1
+
+    function blink() {
+      emoji = emojis[emojindex++]
+      if (!emoji) {
+        emojindex = 0
+        emoji = emojis[emojindex]
+      }
+      newTitle = title + " " + emoji
+      document.title = newTitle
+    }
+
+    bottleCount = 4
+
+    function nBottles(n) {
+      return n.toLocaleString() + " " + (n > 1 ? 'bottles' : 'bottle')
+    }
+
+    function passBottleAround() {
+      bottles = bottleCount == 1 ? 'bottle' : 'bottles';
+      console.log("\n" + nBottles(bottleCount) + " of milk on the wall, " + nBottles(bottleCount) + " of milk.");
+      bottleCount--
+      takeOneDown = "Take one down, pass it around, "
+      if (bottleCount > 0) {
+        bottles = bottleCount == 1 ? 'bottle' : 'bottles';
+        console.log(takeOneDown + nBottles(bottleCount) + " of milk on the wall. ")
+      } else {
+        console.log(takeOneDown + "no more bottles of milk on the wall!");
+      }
+    }
+
+    window.onload = function (_event) {
+      setInterval(blink, 1)
+      bottlePassing = setInterval(function () {
+        if (bottleCount == 0) {
+          clearInterval(bottlePassing)
+        } else {
+          passBottleAround()
+        }
+      }, 1000)
+    }
+  </script>
 </body>
 </html>
