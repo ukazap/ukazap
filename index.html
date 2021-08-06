@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ukaza Perdana</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>😎</text></svg>">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>😎</text></svg>">
 
   <style>
     * {
-      background-color: beige; 
+      background-color: beige;
       font-family: sans-serif;
       color: black;
     }
 
-    .superbox {
-      display: inline-block;
+    @media (min-width: 768px) {
+      .superbox {
+        width: 20%;
+        margin: 0 auto;
+      }
     }
 
     .boxybox {
@@ -32,10 +37,17 @@
     .borderoo {
       border: 2px solid black;
       border-radius: 6px;
+      box-shadow: 2px 2px darkslategray;
+    }
+
+    .borderoooo {
+      border: 2px solid slategray;
+      border-radius: 6px;
+      box-shadow: 2px 2px darkslategray;
     }
 
     .shadowee {
-      box-shadow: 5px 5px teal;
+      box-shadow: 3px 3px teal;
     }
 
     .message {
@@ -44,6 +56,7 @@
       background: transparent;
       font-size: small;
       line-height: 20px;
+      width: 80%;
     }
 
     .ikon-wrapper {
@@ -52,43 +65,53 @@
     }
 
     .ikon {
-      width: 50px;
-      height: 50px;
+      width: 48px;
+      height: 48px;
       margin-bottom: 10px;
       margin-right: 5px;
       font-size: 30px;
       text-align: center;
-      line-height: 50px;
+      line-height: 48px;
       background: turquoise;
     }
 
-    pre, pre * {
+    pre,
+    pre * {
       font-family: monospace;
     }
 
     pre {
-      
+
       line-height: normal;
     }
   </style>
 </head>
+
 <body>
   <div class="superbox">
     <div class="boxybox borderoo shadowee">
       <div class="ikon-wrapper">
-        <img class="ikon borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
+        <img class="ikon borderoooo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
       </div>
       <div class="message">
         Hi 👋<br>
-        I'm Ukaza Perdana, a programmer based in Indonesia.<br>
-        I enjoy laying foundations on which other developers build.<br>
-        I'm all for laziness and convenience and automations!
+        I'm Ukaza Perdana, a programmer based in Indonesia.
       </div>
     </div>
 
     <div class="boxybox borderoo shadowee">
       <div class="ikon-wrapper">
-        <div class="ikon borderoo">📪</div>
+        <div class="ikon borderoooo">💻</div>
+      </div>
+      <div class="message">
+        I enjoy laying foundations on which other developers build.<br>
+        I'm all for laziness, convenience and automations.
+      </div>
+    </div>
+
+    <div class="boxybox borderoo shadowee">
+      <div class="ikon-wrapper">
+        <div class="ikon borderoooo">📪</div>
       </div>
       <pre class="message">{
   "<strong>github</strong>": "<a href="https://github.com/ukazap">ukazap</a>",
@@ -100,11 +123,11 @@
 
     <div class="boxybox borderoo shadowee">
       <div class="ikon-wrapper">
-        <div class="ikon borderoo">🩴</div>
+        <div class="ikon borderoooo">🩴</div>
       </div>
       <div class="message">
-        <iframe src="https://open.spotify.com/embed/playlist/4RtAxiiNZQyWtv8GVgmRrP" width="100%" height="380" frameBorder="0"
-          allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe src="https://open.spotify.com/embed/playlist/4RtAxiiNZQyWtv8GVgmRrP" width="100%" height="380"
+          frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
     </div>
   </div>
@@ -122,7 +145,7 @@
         emoji = emojis[emojindex]
       }
       link = document.querySelector("link[rel~='icon']")
-      link.href = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>"+emoji+"</text></svg>"
+      link.href = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>" + emoji + "</text></svg>"
     }
 
     bottleCount = 3_000_000
@@ -156,4 +179,5 @@
     }
   </script>
 </body>
+
 </html>
