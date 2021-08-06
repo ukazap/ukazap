@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ukaza Perdana</title>
-  <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>😎</text></svg>">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/6721248?v=4">
 
   <style>
     * {
@@ -125,17 +124,33 @@
 
 
   <script>
-
-    emojis = ["😱", "😭", "😢", "😥", "😰", "😨", "😧", "😦", "🥺", "😓", "😩", "😫", "😎", "😀", "😃", "😄", "😁", "😆", "😂", "🙂"]
+    iconInterval = null;
+    originalIcon = null;
+    emojis = ["😱", "😭", "😢", "😥", "😰", "😨", "😧", "😦", "🥺", "😓", "😩", "😫"]
     emojindex = -1
+
+    function iconLink() {
+      return document.querySelector("link[rel~='icon']")
+    }
 
     function changeIcon() {
       emoji = emojis[emojindex++]
       if (!emoji) {
         emoji = emojis[emojindex *= 0]
       }
-      link = document.querySelector("link[rel~='icon']")
-      link.href = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>" + emoji + "</text></svg>"
+      iconLink().href = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>" + emoji + "</text></svg>"
+    }
+
+    function animateIcon() {
+      if (!originalIcon) {
+        originalIcon = iconLink().href
+      }
+      iconInterval = setInterval(changeIcon, 50)
+    }
+
+    function resetIcon() {
+      clearInterval(iconInterval)
+      iconLink().href = originalIcon
     }
 
     bottleCount = 3_000_000
@@ -145,12 +160,10 @@
     }
 
     function passBottleAround() {
-      bottles = bottleCount == 1 ? 'bottle' : 'bottles';
       console.log("\n" + nBottles(bottleCount) + " of milk on the wall, " + nBottles(bottleCount) + " of milk.");
       bottleCount--
       takeOneDown = "Take one down, pass it around, "
       if (bottleCount > 0) {
-        bottles = bottleCount == 1 ? 'bottle' : 'bottles';
         console.log(takeOneDown + nBottles(bottleCount) + " of milk on the wall. ")
       } else {
         console.log(takeOneDown + "no more bottles of milk on the wall!");
@@ -158,14 +171,16 @@
     }
 
     window.onload = function (_event) {
-      setInterval(changeIcon, 100)
-      bottlePassing = setInterval(function () {
+      bottlePassingInterval = setInterval(function () {
         if (bottleCount == 0) {
-          clearInterval(bottlePassing)
+          clearInterval(bottlePassingInterval)
         } else {
           passBottleAround()
         }
       }, 1000)
+
+      window.addEventListener('blur', animateIcon)
+      window.addEventListener('focus', resetIcon)
     }
   </script>
 </body>
