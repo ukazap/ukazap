@@ -94,17 +94,8 @@
         <img class="ikon borderoooo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
       </div>
       <div class="message">
-        Hi 👋<br>
-        I'm Ukaza Perdana, a programmer based in Indonesia.
-      </div>
-    </div>
-
-    <div class="boxybox borderoo shadowee">
-      <div class="ikon-wrapper">
-        <div class="ikon borderoooo">💻</div>
-      </div>
-      <div class="message">
-        I enjoy laying foundations on which other developers build.<br>
+        Hi 👋
+        I'm Ukaza Perdana, a programmer from Indonesia. I'm a backend-leaning full-stack developer.
         I'm all for laziness, convenience and automations.
       </div>
     </div>
@@ -123,7 +114,7 @@
 
     <div class="boxybox borderoo shadowee">
       <div class="ikon-wrapper">
-        <div class="ikon borderoooo">🩴</div>
+        <div class="ikon borderoooo">🍸</div>
       </div>
       <div class="message">
         <iframe src="https://open.spotify.com/embed/playlist/4RtAxiiNZQyWtv8GVgmRrP" width="100%" height="380"
@@ -141,8 +132,7 @@
     function changeIcon() {
       emoji = emojis[emojindex++]
       if (!emoji) {
-        emojindex = 0
-        emoji = emojis[emojindex]
+        emoji = emojis[emojindex *= 0]
       }
       link = document.querySelector("link[rel~='icon']")
       link.href = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>" + emoji + "</text></svg>"
