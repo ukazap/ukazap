@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ukaza Perdana</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>😎</text></svg>">
+
   <style>
     * {
       background-color: beige; 
@@ -23,8 +25,12 @@
       width: auto;
     }
 
+    .boxybox * {
+      background: transparent;
+    }
+
     .borderoo {
-      border: 2px solid gray;
+      border: 2px solid black;
       border-radius: 6px;
     }
 
@@ -40,18 +46,24 @@
       line-height: 20px;
     }
 
-    img {
-      width: 50px;
+    .ikon-wrapper {
       display: inline-block;
       vertical-align: top;
+    }
+
+    .ikon {
+      width: 50px;
+      height: 50px;
       margin-bottom: 10px;
       margin-right: 5px;
+      font-size: 30px;
+      text-align: center;
+      line-height: 50px;
+      background: turquoise;
     }
 
     pre, pre * {
-      background: transparent;
       font-family: monospace;
-      
     }
 
     pre {
@@ -63,55 +75,57 @@
 <body>
   <div class="superbox">
     <div class="boxybox borderoo shadowee">
-      <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
+      <div class="ikon-wrapper">
+        <img class="ikon borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
+      </div>
       <div class="message">
         Hi 👋<br>
         I'm Ukaza Perdana, a programmer based in Indonesia.<br>
         I enjoy laying foundations on which other developers build.<br>
-        I'm all for strong and convenience and automations!!!
+        I'm all for strong and convenience and automations!
       </div>
     </div>
 
     <div class="boxybox borderoo shadowee">
-      <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
-      <div class="message"></div>
-    </div>
-
-
-    <div class="boxybox borderoo shadowee">
-      <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
-      <div class="message"></div>
-    </div>
-
-    <div class="boxybox borderoo shadowee">
-      <img class="borderoo" src="https://avatars.githubusercontent.com/u/6721248?v=4" alt="me face">
+      <div class="ikon-wrapper">
+        <div class="ikon borderoo">📪</div>
+      </div>
       <pre class="message">{
-  "<strong>linkedin</strong>": "<a href="https://www.linkedin.com/in/ukazap">ukazap</a>",
   "<strong>github</strong>": "<a href="https://github.com/ukazap">ukazap</a>",
+  "<strong>linkedin</strong>": "<a href="https://www.linkedin.com/in/ukazap">ukazap</a>",
   "<strong>email</strong>": "<a href="mailto:ukaza@perdana.dev">ukaza@perdana.dev</a>",
   "<strong>pgp_public_key</strong>": "<a href="https://raw.githubusercontent.com/ukazap/ukazap/main/Ukaza%20Perdana_0x6FA2FB3D_public.asc">0x6FA2FB3D</a>"
 }</pre>
+    </div>
+
+    <div class="boxybox borderoo shadowee">
+      <div class="ikon-wrapper">
+        <div class="ikon borderoo">🩴</div>
+      </div>
+      <div class="message">
+        <iframe src="https://open.spotify.com/embed/playlist/4RtAxiiNZQyWtv8GVgmRrP" width="100%" height="380" frameBorder="0"
+          allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
     </div>
   </div>
 
 
   <script>
 
-    title = "Ukaza Perdana"
     emojis = ["😱", "😭", "😢", "😥", "😰", "😨", "😧", "😦", "🥺", "😓", "😩", "😫", "😎", "😀", "😃", "😄", "😁", "😆", "😂", "🙂"]
     emojindex = -1
 
-    function blink() {
+    function changeIcon() {
       emoji = emojis[emojindex++]
       if (!emoji) {
         emojindex = 0
         emoji = emojis[emojindex]
       }
-      newTitle = title + " " + emoji
-      document.title = newTitle
+      link = document.querySelector("link[rel~='icon']")
+      link.href = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>"+emoji+"</text></svg>"
     }
 
-    bottleCount = 4
+    bottleCount = 3_000_000
 
     function nBottles(n) {
       return n.toLocaleString() + " " + (n > 1 ? 'bottles' : 'bottle')
@@ -131,7 +145,7 @@
     }
 
     window.onload = function (_event) {
-      setInterval(blink, 1)
+      setInterval(changeIcon, 100)
       bottlePassing = setInterval(function () {
         if (bottleCount == 0) {
           clearInterval(bottlePassing)
