@@ -185,9 +185,14 @@
           passBottleAround()
         }
       }, 1000)
-
-      window.addEventListener('blur', animateIcon)
-      window.addEventListener('focus', resetIcon)
+    }
+    
+    window.onvisibilitychange = function (event) {
+      if (event.target.visibilityState == 'visible') {
+        resetIcon()
+      } else {
+        animateIcon()
+      }
     }
   </script>
 </body>
