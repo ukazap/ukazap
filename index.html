@@ -177,15 +177,13 @@
       }
     }
 
-    window.onload = function (_event) {
-      bottlePassingInterval = setInterval(function () {
-        if (bottleCount == 0) {
-          clearInterval(bottlePassingInterval)
-        } else {
-          passBottleAround()
-        }
-      }, 1000)
-    }
+    bottlePassingInterval = setInterval(function () {
+      if (bottleCount == 0) {
+        clearInterval(bottlePassingInterval)
+      } else {
+        passBottleAround()
+      }
+    }, 1000)
     
     document.onvisibilitychange = function (event) {
       if (event.target.visibilityState == 'visible') {
