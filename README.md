@@ -1,21 +1,7 @@
-# Hi 👋
+Hi 👋 I'm Ukaza Perdana, a programmer from Indonesia.<br>
+I'm a backend-leaning full-stack developer.<br>
+I'm all for laziness, convenience and automations.
 
-```
- _________________________________________
-/ Ukaza is a Rubyist based in Indonesia.  \
-| He enjoys laying a foundation           |
-| on which other developers               |
-| build, and he's pragmatically obsessed  |
-\ with automation and generalization.     /
- -----------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-```
-
-Resume: [LinkedIn](https://www.linkedin.com/in/ukazap/)
-
-Email: [ukaza@perdana.dev](mailto:ukaza@perdana.dev) ([public key...](https://raw.githubusercontent.com/ukazap/ukazap/main/Ukaza%20Perdana_0x6FA2FB3D_public.asc))
-
+[linkedin:ukazap](https://www.linkedin.com/in/ukazap)
+[email:ukaza@perdana.dev](mailto:ukaza@perdana.dev)
+[pgp:0x6FA2FB3D](https://raw.githubusercontent.com/ukazap/ukazap/main/Ukaza%20Perdana_0x6FA2FB3D_public.asc)
