@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/ukazap
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ukaza.perdana.dev
+  * I am ukazap (https://keybase.io/ukazap) on keybase.
+  * I have a public key with fingerprint DC39 5B03 8601 3218 26F4  06F0 B472 C79B E915 3059
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014cbb9d9827fa9d8750b4e814d35aa2c5029e6df6adbdbd27c8404cab79d744090a",
+      "fingerprint": "dc395b038601321826f406f0b472c79be9153059",
+      "host": "keybase.io",
+      "key_id": "b472c79be9153059",
+      "kid": "01014cbb9d9827fa9d8750b4e814d35aa2c5029e6df6adbdbd27c8404cab79d744090a",
+      "uid": "ad8103d9399806e391e967878982d019",
+      "username": "ukazap"
+    },
+    "merkle_root": {
+      "ctime": 1628417718,
+      "hash_meta": "6f5e9da0eb581ec65afd9d6efb770348dc79b7aacec394b263f1680fb953bad2",
+      "seqno": 20526931
+    },
+    "revoke": {
+      "sig_ids": [
+        "f7e9af1fcd5aa954fc745e41aed866f5bb99398f9db81c2168ce8c55fe66e2d60f"
+      ]
+    },
+    "service": {
+      "hostname": "ukaza.perdana.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1628417757,
+  "expire_in": 157680000,
+  "prev": "13c636d5dee37b5136049135abe8e95608b124f19d9da133e9f5267c259e09d8",
+  "seqno": 82,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMK+AnicrZNdaB1FGIbPqVZtRNoLNRYFy6QlhcTTmd2dvwNepBILInhhWotaDzM7
+3ybLSc6e7O5Jm5SQWKuhFNqGVogREjU3BaUKSWxBxZpEEZVe+EdDPdSAvVILItaf
+So6zQVHES3cvlt19v/d7v2dmlm67IdeU73qkz3yEriznP14YquXUxjP1g0hHZhAV
+D6IyrD2g10CSlsqhQUWECSaer7U0Ujg8UNIITrH2QBDPuFQpx6fYkcBMwJTR9na4
+Lzzs+UpzabjnYYkVakdBWOmGuBqHldTaGt+VVGNXMExchwiHBR5mgTXmjs+lBkmo
+i6m0hT1RklXYcFolUAgj+82+lNbi/Yf+f85dW7NTRhDsGulKKTADVxKQjAsurLvB
+JOtbSyCuqD6w6lpZDakqGm5HfRCXe6EUR1GaofXTMBMQ5giPcE6EHU8lPaU+SJWt
+YwEFaRQGTQUBn1EVGGkYBJpz7HrCZKNypXyw+DztMDcgTOBAS+pqZRybIoH+SoSK
+DqYOky6xEWIYiMqQdU/CbkstQcUnUMBBqoAEvrEoJPUCn3sUPKLACGZjWHB2VhFI
+owXxHdvFB+FTGgBj4BiGA7RvOOsWD4T+mnm2TP8cv1CF2KiKKhgYsLmqcZRGftRr
+f/ekaTUpZnTSwWqm3w+69KdTSYcVY3eKrRiAOAmjiqVllf8CR3k7ggPVMIZSmCko
+txjslfWx7YqIuD5zmaEGwOWaEpdhTxK77hoESMqw0MTxAmK3h1HEdUEGFhj3HSoB
+273yN0nh2Jyq23pafBWV1mJAwwvnn7wxl2/K3bR+XXaEck0bNv11sAy9udE/PTV2
+9Zv7f+yoLx/+dPHSoeud9eVDrfnxvZNO4Z37PvgMfTv0276Z0fE73nj0mRe96dwP
+xxfyu2YuHJ1d/1XHrsK1T37dfvmVpe/n21fnVsa7ih92Nok9W0791Lu5vPNiYcN8
+85azm+Zeujff/NzSnDi1+9mxl7ceOTFyuG1++0MjD58eOX6so/j0ydETqPmX3adv
+//LBiR3v0sZdQ/WfX2Nf70y2XnxMyNbzi9Mtpcbrraurt6zMPnBtx4WntrU9v7x6
+6b2xjWemPr918cjs9eLlhfrkxOO/87bNbSe9cxNTqtry3d3591e+2DN6j2psO9Y4
+++rewXX9/MDVmc4XWhbffuvcm1eOpnd2sf2TfwArAodC
+=Or4/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ukazap
+
+==================================================================
