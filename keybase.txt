@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of https://ukaza.perdana.dev
   * I am ukazap (https://keybase.io/ukazap) on keybase.
-  * I have a public key with fingerprint DC39 5B03 8601 3218 26F4  06F0 B472 C79B E915 3059
+  * I have a public key ASDaB0Vp2caiWvh3Ku-tTGSQOIZLZxQAj-s5izDOBy0rpwo
 
 To do so, I am signing this object:
 
@@ -14,64 +14,39 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "01014cbb9d9827fa9d8750b4e814d35aa2c5029e6df6adbdbd27c8404cab79d744090a",
-      "fingerprint": "dc395b038601321826f406f0b472c79be9153059",
       "host": "keybase.io",
-      "key_id": "b472c79be9153059",
-      "kid": "01014cbb9d9827fa9d8750b4e814d35aa2c5029e6df6adbdbd27c8404cab79d744090a",
+      "kid": "0120da074569d9c6a25af8772aefad4c649038864b6714008feb398b30ce072d2ba70a",
       "uid": "ad8103d9399806e391e967878982d019",
       "username": "ukazap"
     },
     "merkle_root": {
-      "ctime": 1628417718,
-      "hash_meta": "6f5e9da0eb581ec65afd9d6efb770348dc79b7aacec394b263f1680fb953bad2",
-      "seqno": 20526931
-    },
-    "revoke": {
-      "sig_ids": [
-        "f7e9af1fcd5aa954fc745e41aed866f5bb99398f9db81c2168ce8c55fe66e2d60f"
-      ]
+      "ctime": 1628420024,
+      "hash": "8663a7df37e5d30a174e3d2c3d53fc0d62cd9fcd55d760423cdc33ea3d828ba2057f2997f551a5bd8bd66d561132a52d658873981bd38db087a498b16188a536",
+      "hash_meta": "b3f9e14b4d218299b94d24b9d1d417ceda419d0b2bd50c47a73c3c201974430e",
+      "seqno": 20527034
     },
     "service": {
+      "entropy": "xagph/QOJ5yLsoqpigxViWjz",
       "hostname": "ukaza.perdana.dev",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 1
+    "version": 2
   },
-  "ctime": 1628417757,
-  "expire_in": 157680000,
-  "prev": "13c636d5dee37b5136049135abe8e95608b124f19d9da133e9f5267c259e09d8",
-  "seqno": 82,
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.0"
+  },
+  "ctime": 1628420042,
+  "expire_in": 504576000,
+  "prev": "931ff93a9e67ce7f3e934624dea3ae040303c831c4f78b4cd1f571b850a25e13",
+  "seqno": 92,
   "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.1.13
-Comment: https://keybase.io/crypto
-
-yMK+AnicrZNdaB1FGIbPqVZtRNoLNRYFy6QlhcTTmd2dvwNepBILInhhWotaDzM7
-3ybLSc6e7O5Jm5SQWKuhFNqGVogREjU3BaUKSWxBxZpEEZVe+EdDPdSAvVILItaf
-So6zQVHES3cvlt19v/d7v2dmlm67IdeU73qkz3yEriznP14YquXUxjP1g0hHZhAV
-D6IyrD2g10CSlsqhQUWECSaer7U0Ujg8UNIITrH2QBDPuFQpx6fYkcBMwJTR9na4
-Lzzs+UpzabjnYYkVakdBWOmGuBqHldTaGt+VVGNXMExchwiHBR5mgTXmjs+lBkmo
-i6m0hT1RklXYcFolUAgj+82+lNbi/Yf+f85dW7NTRhDsGulKKTADVxKQjAsurLvB
-JOtbSyCuqD6w6lpZDakqGm5HfRCXe6EUR1GaofXTMBMQ5giPcE6EHU8lPaU+SJWt
-YwEFaRQGTQUBn1EVGGkYBJpz7HrCZKNypXyw+DztMDcgTOBAS+pqZRybIoH+SoSK
-DqYOky6xEWIYiMqQdU/CbkstQcUnUMBBqoAEvrEoJPUCn3sUPKLACGZjWHB2VhFI
-owXxHdvFB+FTGgBj4BiGA7RvOOsWD4T+mnm2TP8cv1CF2KiKKhgYsLmqcZRGftRr
-f/ekaTUpZnTSwWqm3w+69KdTSYcVY3eKrRiAOAmjiqVllf8CR3k7ggPVMIZSmCko
-txjslfWx7YqIuD5zmaEGwOWaEpdhTxK77hoESMqw0MTxAmK3h1HEdUEGFhj3HSoB
-273yN0nh2Jyq23pafBWV1mJAwwvnn7wxl2/K3bR+XXaEck0bNv11sAy9udE/PTV2
-9Zv7f+yoLx/+dPHSoeud9eVDrfnxvZNO4Z37PvgMfTv0276Z0fE73nj0mRe96dwP
-xxfyu2YuHJ1d/1XHrsK1T37dfvmVpe/n21fnVsa7ih92Nok9W0791Lu5vPNiYcN8
-85azm+Zeujff/NzSnDi1+9mxl7ceOTFyuG1++0MjD58eOX6so/j0ydETqPmX3adv
-//LBiR3v0sZdQ/WfX2Nf70y2XnxMyNbzi9Mtpcbrraurt6zMPnBtx4WntrU9v7x6
-6b2xjWemPr918cjs9eLlhfrkxOO/87bNbSe9cxNTqtry3d3591e+2DN6j2psO9Y4
-++rewXX9/MDVmc4XWhbffuvcm1eOpnd2sf2TfwArAodC
-=Or4/
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2gdFadnGolr4dyrvrUxkkDiGS2cUAI/rOYswzgctK6cKp3BheWxvYWTESpcCXMQgkx/5Op5nzn8+k0Yk3qOuBAMDyDHE94tM0fVxuFCiXhPEIFCY1ssgPlbUs8XFFq+GqFy5Xwy/cosP6rQqj/gNO1gEAgHCo3NpZ8RAv013Ag73gPxggpXe7F9FNb1StHUWPEHCZvJ+ARLqrpUC3qHXms3kcE2216TILae8sKjCtgIPddoGw63WQLPAB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPSavLFWEbFdHgfeCWhsckUcFwDsankjjWhKfG03NDmXo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
