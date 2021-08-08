@@ -4,4 +4,4 @@ I'm all for laziness, convenience and automations.
 
 [linkedin:ukazap](https://www.linkedin.com/in/ukazap)<br>
 [email:ukaza@perdana.dev](mailto:ukaza@perdana.dev)<br>
-[pgp:C53FB9EFF87DD0ED1676D4D960D653FD6FA2FB3D](https://raw.githubusercontent.com/ukazap/ukazap/main/pubkey.txt)
+[pgp:DD484875EB6DC5AF](https://keybase.io/ukazap/pgp_keys.asc)
