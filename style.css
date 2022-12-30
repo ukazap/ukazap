@@ -1,0 +1,24 @@
+* {
+  background-color: #22272e;
+  color: #adbac7;
+  font-size: large;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  margin: 20px;
+  align-self: center;
+}
+
+p {
+  line-height: 20px;
+}
+
+a {
+  color: #669e91;
+  text-decoration: none;
+}

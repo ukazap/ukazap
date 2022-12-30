@@ -1,0 +1,5 @@
+.git
+.github
+docker-compose.yml
+fly.toml
+index.html
