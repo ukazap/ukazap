@@ -1,0 +1,81 @@
+# Ukaza P.S. Perdana
+
+Kediri, East Java, Indonesia (UTC+7)
+
+<https://ukaza.perdana.dev>
+
+<mailto:ukaza@perdana.dev>
+
+[LinkedIn](https://www.linkedin.com/in/ukazap)
+
+[GitHub](https://github.com/ukazap)
+
+***
+
+A software engineer with experience in B2B SaaS, smart city/mobility projects, and recently a centralised cryptocurrency exchange.
+
+***
+
+## Objective
+
+Seeking remote position for backend engineering (Elixir or Ruby) with an opportunity to build systems that will scale to millions of users.
+
+***
+
+## Skills
+
+* __Programming languages__: Elixir, Erlang, Ruby, JavaScript.
+* __Databases__: PostgreSQL, Redis, SQLite.
+* __Protocols__: HTTP, WebSocket, MQTT, RESP (REdis Serialization Protocol).
+* __Web frameworks__: Phoenix, Ruby on Rails.
+* __Test frameworks__: ExUnit, RSpec, Cucumber.
+* __Operating systems__: Linux and macOS.
+* __CI/CD/ops__: Docker, GNU Make, Bash scripting, GitHub Actions, GitLab CI.
+
+***
+
+## Work Experience
+
+* __Sep 2021 - Present__: Senior Backend Engineer at [Stockbit Crypto](https://crypto.stockbit.com), Jakarta, Indonesia (Remote)
+
+  Building order management system for a centralized crypto exchange.
+  Leading a team of 5 engineers. Provide staff training for Elixir and Erlang ecosystem. 
+  
+  Tech stack: Elixir, Erlang OTP, PostgreSQL, VerneMQ, Apache Kafka.
+
+
+* __Oct 2019 - May 2021__: Lead Software Engineer at [Itsavirus](https://itsavirus.com/), Bali, Indonesia
+
+  Work in mobility and smart city projects in the Netherlands. Developed Rails applications, refactored and maintained legacy software.
+  
+  Tech stack: varied by client (Ruby, PHP, Java).
+
+
+* __Sep 2018 - May 2021__: Lead Software Engineer at [Melalie](https://www.melalie.com), Bali, Indonesia
+
+  Build a motorbike rental platform. In charge of architecture and system design, develop and maintain an internal REST API, implement location-based search, and setting up infrastructure.
+  
+  Tech stack: Ruby on Rails, PostgreSQL, Redis.
+
+
+* __Aug 2016 - Aug 2018__: Software Developer at [Jurnal](https://www.jurnal.id), Jakarta, Indonesia
+
+  Indonesian accounting SaaS. Written Ruby and JavaScript codes, develop frontend modules and maintain REST API, deliver projects: Jurnal Consolidation, Audit Logs, Thin Client, Reports UI revamp.
+  
+  Tech stack: Ruby on Rails, MySQL, Redis, React.
+
+***
+
+## Education
+
+* __Sep 2012 - Sep 2016__: Universitas Nusantara PGRI Kediri, East Java, Indonesia
+
+  Strata 1 Teknik Informatika (GPA 3.53).
+  
+  Bachelor's degree of Computer Science equivalent.
+
+***
+
+## References
+
+Available upon request.

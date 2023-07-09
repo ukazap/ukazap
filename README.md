@@ -1,29 +1,12 @@
-<samp>
-  <p>Hi 👋</p>
-  
-  <p>I'm Ukaza (Ukz) Perdana, a programmer from Indonesia.</p>
+Hi 👋
 
-  <p>There's not much I can share at the moment.</p>
+I'm Ukaza Perdana, a programmer from Indonesia.
 
-  <p>In the meanwhile, You can find me here and there:</p>
+You can find me here and there:
 
-  <ul>
-    <li>
-      <a href="https://github.com/ukazap">GitHub</a>
-    </li>
-    <li>
-      <a rel="me" href="https://mastodon.social/@ukazap">Mastodon</a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/ukazap">LinkedInPark</a>
-    </li>
-    <li>
-      email: ukaza @ perdana . dev
-    </li>
-    <li>
-      pgp: <a href="./ukazap.asc">58A2 63CB 7B8B 4494</a>
-    </li>
-  </ul>
+* [Resume](https://github.com/ukazap/ukazap/blob/main/resume.md)
+* [LinkedIn](https://www.linkedin.com/in/ukazap)
+* [GitHub](https://github.com/ukazap)
+* Email: [ukaza@perdana.dev](mailto:ukaza@perdana.dev), PGP: [58A2 63CB 7B8B 4494](ukazap.asc)
 
-  <p>Kamsia.</p>
-</samp>
+Stay safe.

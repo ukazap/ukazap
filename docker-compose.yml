@@ -1,7 +1,5 @@
 services:
   site:
-    image: pierrezemb/gostatic
-    volumes:
-      - .:/srv/http
+    build: .
     ports:
       - 0.0.0.0:8043:8043
