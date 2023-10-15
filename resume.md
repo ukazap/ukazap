@@ -38,8 +38,18 @@ Seeking remote position for backend engineering (Elixir or Ruby) with an opportu
 
 * __Sep 2021 - Present__: Senior Backend Engineer at [Stockbit Crypto](https://crypto.stockbit.com), Jakarta, Indonesia (Remote)
 
-  Building order management system for a centralized crypto exchange.
-  Leading a team of 5 engineers. Provide staff training for Elixir and Erlang ecosystem. 
+  Build order management system for a centralized crypto exchange.
+  Leading a team of 5 engineers. Provide staff training for Elixir and Erlang ecosystem.
+
+  Develop the following components:
+
+  * **Order Management System** which accepts users’ trade orders and manage their lifecycle
+
+  * **Risk Engine** which is a critical component for preventing execution of withdrawal/trades exceeding user’s buying power; implemented bespoke API roughly based on Redis protocol using Thousand Island socket server
+
+  * **OMS-to-Matching Engine** connector that is fault-tolerant (using OTP building blocks and ZeroMQ binary star pattern)
+
+  * **VerneMQ plugins** for custom functionalities (VerneMQ is an Erlang-based MQTT broker, which we use for the bulk of communications and streams between the backend services and the frontend app).
   
   Tech stack: Elixir, Erlang OTP, PostgreSQL, VerneMQ, Apache Kafka.
 
