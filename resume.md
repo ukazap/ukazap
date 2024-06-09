@@ -43,7 +43,7 @@ Seeking remote position for back-end engineering (Elixir or Ruby) with an opport
   Improve back-end infrastructure reliability and internal developer experience,
   develop in-house custom Sidekiq job fetching mechanism that ensures durability in the event of VM crash or dirty shutdown.
 
-  Deployment of ETL pipeline to support data scientist for implementing and serving daily sales prediction across dozens of F&B franchises and thousands of outlets.
+  Deployment of ETL pipeline to support data scientist to train model for implementing and serving daily sales prediction across dozens of F&B franchises and thousands of outlets.
   
   Tech stack: Ruby on Rails, Sidekiq, PostgreSQL, Redis, Debezium, Apache Kafka, Python.
 
