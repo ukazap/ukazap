@@ -36,7 +36,7 @@ Seeking remote position for back-end engineering (Elixir or Ruby) with an opport
 
 ## Work Experience
 
-* __Jan 2024 - Present__: Backend Engineer at [Runchise]([https://www.jurnal.id](https://www.runchise.com/), Jakarta, Indonesia (Remote)
+* __Jan 2024 - Present__: Backend Engineer at [Runchise](https://www.runchise.com), Jakarta, Indonesia (Remote)
 
   Extend existing restaurant Warehouse Management System to support multi-storage sectioning.
 
