@@ -12,13 +12,13 @@ Kediri, East Java, Indonesia (UTC+7)
 
 ***
 
-A software engineer with experience in B2B SaaS, smart city/mobility projects, and recently a centralised cryptocurrency exchange.
+A software engineer with experience in B2B SaaS, smart city/mobility projects, and FinTech.
 
 ***
 
 ## Objective
 
-Seeking remote position for backend engineering (Elixir or Ruby) with an opportunity to build systems that will scale to millions of users.
+Seeking remote position for back-end engineering (Elixir or Ruby) with an opportunity to build systems that will scale to millions of users.
 
 ***
 
@@ -36,7 +36,18 @@ Seeking remote position for backend engineering (Elixir or Ruby) with an opportu
 
 ## Work Experience
 
-* __Sep 2021 - Present__: Senior Backend Engineer at [Stockbit Crypto](https://crypto.stockbit.com), Jakarta, Indonesia (Remote)
+* __Jan 2024 - Present__: Backend Engineer at [Runchise]([https://www.jurnal.id](https://www.runchise.com/), Jakarta, Indonesia (Remote)
+
+  Extend existing restaurant Warehouse Management System to support multi-storage sectioning.
+
+  Improve back-end infrastructure reliability and internal developer experience,
+  develop in-house custom Sidekiq job fetching mechanism that ensures durability in the event of VM crash or dirty shutdown.
+
+  Deployment of ETL pipeline to support data scientist for implementing and serving daily sales prediction across dozens of F&B franchises and thousands of outlets.
+  
+  Tech stack: Ruby on Rails, Sidekiq, PostgreSQL, Redis, Debezium, Apache Kafka, Python.
+
+* __Sep 2021 - Nov 2023__: Backend Engineer at [Stockbit Crypto](https://crypto.stockbit.com), Jakarta, Indonesia (Remote)
 
   Build order management system for a centralized crypto exchange.
   Leading a team of 5 engineers. Provide staff training for Elixir and Erlang ecosystem.
@@ -54,14 +65,14 @@ Seeking remote position for backend engineering (Elixir or Ruby) with an opportu
   Tech stack: Elixir, Erlang OTP, PostgreSQL, VerneMQ, Apache Kafka.
 
 
-* __Oct 2019 - May 2021__: Lead Software Engineer at [Itsavirus](https://itsavirus.com/), Bali, Indonesia
+* __Oct 2019 - May 2021__: Software Engineer at [Itsavirus](https://itsavirus.com/), Bali, Indonesia
 
   Work in mobility and smart city projects in the Netherlands. Developed Rails applications, refactored and maintained legacy software.
   
   Tech stack: varied by client (Ruby, PHP, Java).
 
 
-* __Sep 2018 - May 2021__: Lead Software Engineer at [Melalie](https://www.melalie.com), Bali, Indonesia
+* __Sep 2018 - May 2021__: Software Engineer at [Melalie](https://www.melalie.com), Bali, Indonesia
 
   Build a motorbike rental platform. In charge of architecture and system design, develop and maintain an internal REST API, implement location-based search, and setting up infrastructure.
   
